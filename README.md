@@ -1,21 +1,9 @@
 # medupdoc-fe
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Login/Register with Validation using Vue 3, Element Plus, and TypeScript
+T
+his project is a simple example of a login/register system with validation using Vue 3, Element Plus, TailwindCSS and TypeScript. It contains a login form and a register form, both of which have validation for the input fields.
 
 ## Customize configuration
 
@@ -30,7 +18,7 @@ pnpm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev
+pnpm run start:dev
 ```
 
 ### Type-Check, Compile and Minify for Production
@@ -44,3 +32,24 @@ pnpm build
 ```sh
 pnpm lint
 ```
+
+This will create a dist directory containing the compiled project files.
+
+### Features
+Login Form
+The login form allows users to enter their username and password. Both fields are required and must be at least 6 characters long. If the user enters invalid input, error messages will be displayed.
+
+### Register Form
+The register form allows users to create a new account by entering their desired username and password. Both fields are required and must be at least 6 characters long. If the user enters invalid input, error messages will be displayed.
+
+### Validation
+The input fields in both forms are validated using the Element Plus validation library. This ensures that users enter valid input before submitting the form.
+
+### Technologies Used
+This project uses the following technologies:
+
+## Vue 3
+## Element Plus
+## TypeScript
+## Vue Router
+## TailwindCSS
