@@ -1,0 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.el-button { background-color: var(--el-button-bg-color); }
+:root{
+    --primary-color: #00bfff;
+}
